@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -r ts-node/register /test/ts/**.test.ts"
+    "test": "mocha ./test/**.test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^7.1.1",
+    "mocha": "^7.1.1"
   }
 }
