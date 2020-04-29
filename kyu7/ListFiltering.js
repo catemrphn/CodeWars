@@ -5,7 +5,7 @@
 
 
 function filterList(arr) {
-     return arr.filter(item => typeof item === typeof 42);
+     return arr.filter(item => typeof item === 'number');
 }
 
 module.exports = filterList;
